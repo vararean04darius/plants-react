@@ -9,10 +9,11 @@ import eighth from './assets/eighth.jpg'
 import nineth from './assets/nineth.jpg'
 import tenth from './assets/tenth.jpg'
 import eleventh from './assets/eleventh.jpg'
+import twelveth from './assets/twelveth.jpg'
 
 function Pictures() {
 
-    const images = [first, second, third, fourth, fifth, sixth, seventh, eighth, nineth, tenth, eleventh];
+    const images = [first, second, third, fourth, fifth, sixth, seventh, eighth, nineth, tenth, eleventh, twelveth];
     return (
         <div className='flex'>
             <h3>Here is the progress of my plant!</h3>
@@ -28,6 +29,7 @@ function Pictures() {
             <img className='picture' src={images[9]} alt="" />
             <img className='picture' src={images[10]} alt="" />
             <img className='picture' src={images[11]} alt="" />
+            <img className='picture' src={images[12]} alt="" />
         </div>
     )
 }
